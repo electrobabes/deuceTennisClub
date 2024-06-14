@@ -1,0 +1,242 @@
+body {
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: rgb(85, 122, 102, 0.9);
+    opacity: 0.9; 
+    color: #fff;
+    /* clay red - rgb(198, 112, 71); */ 
+  }
+
+  h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .bar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+    background-color: rgb(85, 122, 102);
+    color: #ffff;
+    font-family: "Didact Gothic", "Work Sans", Arial, Helvetica, sans-serif;
+  }
+  
+#htc-logo {
+    background-image: url(https://pngfre.com/wp-content/uploads/Tennis-22.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 6rem;
+    margin-bottom: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 0.3rem;
+    text-align: center;
+}
+
+  .bar p {
+    color: #ffff;
+    left: 25rem;
+  }
+  
+  .intro {
+    height: 40rem;
+    padding-top: 1rem;
+    background-image: url(https://i.ibb.co/xYL3nRs/Miu-Miu-svela-il-suo-Tennis-Club-a-Saint-Tropez-con-Chiara-Ferragni-4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+  }
+
+  .intro img {
+    width: 15rem;
+    padding-top: 10rem;
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  
+  .intro h1 {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    letter-spacing: 0.2rem;
+    font-size: 6rem;
+    margin-top: 30%;
+    padding: 2rem;
+    justify-content: center;
+    /* background-color: rgba(0.5, 0.5, 0.5, 0.5); */
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+  
+  li {
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+  }
+
+  #row-img {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* unvisited link */
+a:link {
+    color: #fff;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #fff;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(198, 112, 71);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(198, 112, 71);
+  }
+  
+  .summary,
+  .testimonial,
+  .photos,
+  .meetup {
+    margin: 4em auto;
+  }
+  
+  .summary {
+    padding: 0 1rem;
+  }
+  
+  .summary p {
+    color: White;
+  }
+  
+  .testimonial {
+    background-color: #fff;
+    height: 20rem;
+    padding: 0 1rem;
+    padding-top: 1rem;
+    color: rgb(85, 122, 102);
+  }
+  
+  .testimonial h1 {
+    font-size: 2.5rem;
+    color: rgb(198, 112, 71);
+  }
+  
+  .summary h2 {
+    color: rgb(198, 112, 71);
+  }
+  
+  .photos img {
+    width: 30%;
+    margin: 1.5%;
+  }
+
+  .photos #double {
+    width: 60%;
+    margin: 1.5rem;
+  }
+  
+  .meetup {
+    margin-bottom: 2rem;
+  }
+  
+  .meetup img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  
+  .meetup h1 {
+    color: rgb(198, 112, 71);
+    text-align: center;
+  }
+  
+  .foot-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  @media only screen and (max-width: 1048px) {
+  
+    .photos img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .photos #double {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+    #row-img {
+        display: flex;
+        flex-wrap: wrap;
+      }
+  }
+  
+  @media only screen and (max-width: 640px) {
+  
+    .intro h1 {
+      margin-top: 2rem;
+      font-size: 2rem;
+    }
+  
+    .intro {
+      max-height: 200px;
+    }
+  
+    .photos img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .photos #double {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+  
+    li {
+      display: block;
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+  
+    .testimonial h1 {
+      font-size: 2rem;
+    }
+  
+    .photos img {
+      width: 100%;
+    }
+
+    .photos #double {
+        width: 100%;
+      }
+  }
+  
